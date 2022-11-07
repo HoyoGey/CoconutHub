@@ -17,7 +17,7 @@ script = NotificationFrame.NotifScript
 local Notify = loadstring(NotificationFrame.NotifScript.Source)()
 script = oldScript
 
-if game.PlaceId == 648362523 or 648362523 then
+if game.PlaceId == 648362523 or game.PlaceId == 648362523 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HoyoGey/CoconutHub/main/Games/BreakingPoint.lua"))()
 elseif game.PlaceId == 192800 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HoyoGey/CoconutHub/main/Games/WorkAtAPizzaPlace.lua"))()
