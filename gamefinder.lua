@@ -12,6 +12,8 @@ elseif game.PlaceId == 8726743209 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HoyoGey/CoconutHub/main/Games/RefineryCaves.lua"))()
 elseif game.PlaceId == 9872472334 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HoyoGey/CoconutHub/main/Games/Evade.lua"))()
+elseif game.PlaceId == 893973440 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HoyoGey/CoconutHub/main/Games/FleeTheFacility.lua"))()
 else
   local MakeNotif = loadstrint(game:Httpget("https://raw.githubusercontent.com/HoyoGey/My-Lua-Project/main/UiLibs/NotifyLib.lua"))()
   MakeNotif:New("Game Not Found!", "Game: Not Supported", 3)
